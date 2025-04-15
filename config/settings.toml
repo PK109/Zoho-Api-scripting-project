@@ -1,0 +1,4 @@
+[project]
+api_url = "https://desk.zoho.eu/api/v1"
+oauth_url = 'https://accounts.zoho.eu/oauth/v2/token'
+backup_dir = "./backups"

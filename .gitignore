@@ -1,0 +1,10 @@
+# .gitignore
+config/secrets.toml
+backups
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+
+# 'old style' writing, not to publish
+Aktualizacja_programy_lojalnościowe.ipynb
+Zoho_API_sample.ipynb
