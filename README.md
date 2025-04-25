@@ -38,6 +38,9 @@ Please find reference link to the documentation here. [`Zoho Desk API Documentat
 
 4. Update settings in `config/settings.toml` if necessary.
 
+5. If required, install `nbstripout` in the repository to prevent pushing notebook outputs with commits. 
+Instruction on how to perform this operation can be found [`here`](https://github.com/kynan/nbstripout).
+
 ## Usage
 
 ### Authentication
