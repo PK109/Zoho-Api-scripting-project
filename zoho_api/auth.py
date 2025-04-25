@@ -27,7 +27,7 @@ def obtain_token():
         expires_in = tokens.get('expires_in')
         localtime = time.localtime(time.time() + expires_in)
         print('Scope:', tokens.get('scope'))
-        print(f"Token expires at:\t{localtime.tm_hour}:{localtime.tm_min}:{localtime.tm_sec}")
+        print(f"Token expires at:\t{localtime.tm_hour:02d}:{localtime.tm_min:02d}:{localtime.tm_sec:02d}")
         update_token("access_token", accessToken)
         update_token('refresh_token', refreshToken)
         print("Token values updated")
@@ -59,7 +59,7 @@ def refresh_token():
         expires_in = tokens.get('expires_in')
         localtime = time.localtime(time.time() + expires_in)
         print('Scope:', tokens.get('scope'))
-        print(f"Token expires at:\t{localtime.tm_hour}:{localtime.tm_min}:{localtime.tm_sec}")
+        print(f"Token expires at:\t{localtime.tm_hour:02d}:{localtime.tm_min:02d}:{localtime.tm_sec:02d}")
         print("Token values updated")
     else:
         print("Error in authorization:")

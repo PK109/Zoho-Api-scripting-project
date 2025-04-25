@@ -5,6 +5,9 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints
 
+# Other files to ignore
+.venv
+
 # 'old style' writing, not to publish
 Aktualizacja_programy_lojalnościowe.ipynb
 Zoho_API_sample.ipynb

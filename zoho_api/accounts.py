@@ -177,10 +177,10 @@ def apply_sla(account_id: str, sla_id:str):
     if sla_id != current_sla:
         if current_sla != '': 
             associate_sla(account_id=account_id, sla_id=current_sla, associate=False)
-            print(f", SLA {current_sla} is removed ", end='')
+            print(f", SLA {current_sla} is removed", end='')
         if sla_id != '':
             associate_sla(account_id=account_id, sla_id=sla_id, associate=True)
-            print(f", SLA {sla_id} is applied ", end='')
+            print(f", SLA {sla_id} is applied", end='')
 
     else:
         print(", there are no SLA changes", end='')
