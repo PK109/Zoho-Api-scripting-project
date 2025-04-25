@@ -17,7 +17,7 @@ Please find reference link to the documentation here. [`Zoho Desk API Documentat
 - **`config/settings.toml`**: Contains project settings like API URLs.
 - **`config/secrets.toml`**: Stores sensitive credentials (ignored in `.gitignore`). Refer to: [`sample_secrets.toml`](config/sample_secrets.toml)
 - **`zoho_api/`**: Contains modules for API interaction, including authentication, account management, and backups.
-- **`src/Update SLA.ipynb`**: Jupyter Notebook for applying SLAs to accounts.
+- **`src/`**: Jupyter Notebooks for utilizing Zoho API.
 
 ## Setup
 
@@ -96,13 +96,6 @@ save_backup_to_file(backup_data, filename="backup.json", updated_fields=["field1
 backup_data = load_backup_from_file(filename="backup.json")
 ```
 
-## Jupyter Notebooks
-
-- **`src/Update SLA.ipynb`**: A notebook for applying SLAs to accounts based on data from Excel files.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 
