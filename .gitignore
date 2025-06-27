@@ -4,6 +4,7 @@ backups
 __pycache__/
 *.pyc
 .ipynb_checkpoints
+*.json
 
 # Other files to ignore
 .venv

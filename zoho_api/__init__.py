@@ -1,7 +1,7 @@
 from .auth import obtain_token, refresh_token
 from .accounts import read_account, update_account, backup_updated_fields, restore_updated_fields, list_accounts, apply_sla
 from .backup import save_backup_to_file, save_response_to_file, load_backup_from_file
-from .misc import list_departments, list_views
+from .misc import list_departments, list_views, list_tags   
 
 __all__ = [
     "obtain_token",
@@ -11,10 +11,11 @@ __all__ = [
     "backup_updated_fields",
     "restore_updated_fields",
     'list_accounts',
+    "apply_sla",
     "save_backup_to_file",
     "save_response_to_file",
     "load_backup_from_file",
     'list_departments',
     'list_views',
-    'apply_sla'
+    'list_tags'
 ]
